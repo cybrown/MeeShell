@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\MeeShell.Ast\MeeShell.Ast.csproj" />
+    <ProjectReference Include="..\MeeShell.Parser\MeeShell.Parser.csproj" />
+    <ProjectReference Include="..\MeeShell.ParserKit\MeeShell.ParserKit.csproj" />
+    <ProjectReference Include="..\MeeShell.Runtime\MeeShell.Runtime.csproj" />
+    <ProjectReference Include="..\MeeShell.Util\MeeShell.Util.csproj" />
+    <ProjectReference Include="..\MeeShell.Ast2Mir\MeeShell.Ast2Mir.csproj" />
+    <ProjectReference Include="..\MeeShell.Mir\MeeShell.Mir.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
