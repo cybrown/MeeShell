@@ -118,22 +118,6 @@ namespace MeeShell.ExampleCli
         }
     }
 
-    public class Player
-    {
-        public string Name;
-        public double X;
-        public double Y;
-        public double Z;
-
-        public Player(string name, double x = 0, double y = 0, double z = 0)
-        {
-            Name = name;
-            X = x;
-            Y = y;
-            Z = z;
-        }
-    }
-
     public static class Program
     {
         public static void Main()
